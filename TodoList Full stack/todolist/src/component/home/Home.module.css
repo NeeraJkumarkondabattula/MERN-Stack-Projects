@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+}
+.container{
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.todo{
+    margin-top: 20px;
+    width: 330px;
+    height: 30px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    background-color: black;
+    color: white;
+    text-transform: capitalize;
+}
+
+.checkDiv{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.check{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.correct{
+    width: 15px;
+    aspect-ratio: 1/1;
+}
+
+#overline{
+    text-decoration: line-through;
+}
+
+.trash{
+    width: 20px;
+    filter: invert();
+}

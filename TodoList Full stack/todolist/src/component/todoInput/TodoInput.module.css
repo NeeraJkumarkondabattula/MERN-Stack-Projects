@@ -1,0 +1,18 @@
+
+.form input{
+    margin-top: 100px;
+    padding: 0 10px;
+    width: 250px;
+    height: 30px;
+    outline: none;
+    border: 2px solid black;
+}
+
+.form button{
+    color: white;
+    background-color: black;
+    width: 80px;
+    height: 34px;
+    outline: none;
+    border: 2px solid black;
+}
