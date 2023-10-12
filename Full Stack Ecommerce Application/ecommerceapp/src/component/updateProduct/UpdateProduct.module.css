@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+    margin: 0;
+}
+
+.container{
+    margin: 10px auto;
+    width: 1200px;
+    height: 500px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins";
+}
+
+.form{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content:flex-start;
+    width: 800px;
+    height: 450px;
+    /* border: 1px solid black; */
+}
+
+.form h2{
+    line-height: 20px;
+}
+
+.form h2::first-letter{
+    color: orange;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content:center;
+    width: 700px;
+    height: 350px;
+    border: 2px solid black;
+}
+
+.details div label::first-letter{
+    color: orange;
+    font-weight: 500;
+}
+
+.name ,.price, .rating, .discription, .image{
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 400px;
+    height: 40px;
+    /* border: 1px solid black; */
+}
+
+.name input{
+    margin-left: 50px;
+    padding: 0 5px;
+    width: 200px;
+    height: 24px;
+    border: 1px solid black;
+    outline: none;
+}
+
+.discription input{
+    margin-left: 15px;
+    padding: 0 5px;
+    width: 200px;
+    height: 24px;
+    border: 1px solid black;
+    outline: none;
+}
+
+.rating input{
+    margin-left: 46px;
+    padding: 0 5px;
+    width: 200px;
+    height: 24px;
+    border: 1px solid black;
+    outline: none;
+}
+
+.price input{
+    margin-left: 58px;
+    padding: 0 5px;
+    width: 200px;
+    height: 24px;
+    border: 1px solid black;
+    outline: none;
+}
+
+.image input{
+    margin-left: 45px;
+    padding: 0 5px;
+    width: 200px;
+    height: 24px;
+    border: 1px solid black;
+    outline: none;
+}
+
+.button{
+    margin-left: 80px;
+    font-weight: 600;
+    background-color: orange;
+    color: white;
+    width: 140px;
+    height: 30px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+
+

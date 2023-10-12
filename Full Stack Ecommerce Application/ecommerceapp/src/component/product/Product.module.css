@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+    margin: 0;
+}
+
+.product{
+    margin: 10px auto;
+    width: 95%;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    border: 2px solid orange;
+}
+
+.image{
+    object-fit: contain;
+    width: 100px;
+    height: 130px;
+    /* border: 1px solid black; */
+}
+
+.image img{
+    width: 100px;
+    aspect-ratio: 1/1.3;
+}
+
+.productDetails{
+    width: 1030px;
+    height: 140px;
+    /* border: 1px solid black; */
+}
+
+.productDetails .name{
+    padding:0 10px;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    /* border: 1px solid black; */
+}
+
+.productDetails .name p::first-letter{
+    color: orange;
+    font-weight: 500;
+}
+
+.productDetails .discription{
+    padding:0 10px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    height: 55px;
+    /* border: 1px solid black; */
+}
+
+.productDetails .discription::-webkit-scrollbar {
+    display: none;
+  }
+
+.productDetails .rating{
+    width: 80px;
+    height: 25px;
+    padding:0 10px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+
+.productDetails .rating img{
+    margin-left: 4px;
+    width: 14px;
+}
+
+.productDetails .price{
+    padding:0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    height: 25px;
+    /* border: 1px solid black; */
+}
+
+.button{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+}
+
+.button img{
+    filter: invert(100%) sepia() saturate(10000%) hue-rotate(-50deg);
+    width: 20px;
+}
